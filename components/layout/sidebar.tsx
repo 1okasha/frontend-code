@@ -67,10 +67,10 @@ export function Sidebar({ activeItem = "Dashboard", onNavigate }: SidebarProps) 
         </nav>
       </div>
 
-      <div className="absolute bottom-4 left-4 text-xs text-gray-500">
+      {/* <div className="absolute bottom-4 left-4 text-xs text-gray-500">
         <div>CallCenter AI v2.1.0</div>
         <div>© 2024 AI Solutions</div>
-      </div>
+      </div> */}
     </div>
   )
 }

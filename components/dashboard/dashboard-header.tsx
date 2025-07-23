@@ -17,22 +17,7 @@ export function DashboardHeader({ onCreateAgent }: DashboardHeaderProps) {
           <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
           <p className="text-gray-600 mt-1">Manage your AI call center agents and monitor performance</p>
         </div>
-        <div className="flex items-center space-x-2 ml-8">
-          <div className="w-5 h-5 bg-gray-400 rounded-sm"></div>
-          <span className="text-sm font-medium text-gray-700">Production</span>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="sm" className="bg-black text-white px-3 py-1 text-xs">
-                production <ChevronDown className="w-3 h-3 ml-1" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem>production</DropdownMenuItem>
-              <DropdownMenuItem>staging</DropdownMenuItem>
-              <DropdownMenuItem>development</DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
+        
       </div>
       <div className="flex items-center space-x-4">
         <div className="relative">
