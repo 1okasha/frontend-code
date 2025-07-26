@@ -12,5 +12,7 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/dashboard/:path*'], // Protect these paths
+  matcher: [
+    '/((?!_next/static|_next/image|favicon.ico|login|signup|otp-verification|api/public).*)',
+  ],
 };
